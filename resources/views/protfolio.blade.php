@@ -1,0 +1,174 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <!--<![endif]-->
+<html class="no-js" lang=""> 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Polmo - One Page HTML5 Template By Jewel Theme</title>
+  <meta name="description" content="Polmo - One Page HTML5 Template By Jewel Theme">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png')}}">
+  <!-- Include Bootstrap Css -->
+  <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
+  <!-- Include Bootstrap Min Css -->
+  <link rel="stylesheet" href="{{ asset('assets/css/bootstrap-theme.min.css')}}">
+  <!-- Include Animate Min Css -->
+  <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css')}}">
+  <!-- Include Fontawesome Min Css -->
+  <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css')}}">
+  <!-- Include Magnific PopUp Css -->
+  <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css')}}">
+  <!-- bxSlider CSS file -->
+  <link href="{{ asset('assets/css/jquery.bxslider.css')}}" rel="stylesheet" />
+  <!-- Include Style Css -->
+  <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+  <!-- Include Responsive Css -->
+  <link rel="stylesheet" href="{{ asset('assets/css/responsive.min.css')}}">
+  <!-- Include Modernizer Js -->
+  <script src="{{URL::asset('assets/js/modernizr-2.8.3-respond-1.4.2.min.js')}}"></script>
+
+  
+</head>
+<body>
+<header id="masthead" class="masthead navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="./"><img "{{ asset('images/logo.png)}}" alt="Site Logo"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <nav id="main-menu" class="collapse navbar-collapse pull-right">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index">Home</a></li>
+          <li><a href="services">Services</a></li>
+          <li><a href="about">About Us</a></li>
+          <li><a href="protfolio">Portfolio</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="contact">Contact us</a></li>
+        </ul>
+      </nav><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+  </header>
+<!-- Portfolio Section -->
+
+  <section id="portfolio" class="portfolio text-center">
+    <div class="portfolio-bottom">
+      <div class="section-padding">
+        <div class="section-top wow animated fadeInUp" data-wow-delay=".5s">
+          <h2 class="section-title"><span>Featured</span> Projects</h2><!-- /.section-title -->
+          <p class="section-description">
+            Suppose then that such rings were produced in a medium without friction as the ether is believed to be, they would be permanent structures with a variety of properties.
+          </p><!-- /.section-description -->
+        </div><!-- /.section-top -->
+
+        <div class="latest-projects wow animated fadeInUp" data-wow-delay=".5s">
+          <div class="itemFilter">
+            <a href="#" data-filter="" class="current">All</a>
+            <a href="#" data-filter=".cat-1">WordPress</a>
+            <a href="#" data-filter=".cat-2">Joomla</a>
+            <a href="#" data-filter=".cat-3">Plugins</a>
+          </div> <!-- /.itemFilter -->
+
+          <div id="project-items" class="project-items">
+            <div class="item cat-1 cat-4">
+              <a href="{{ asset('images/project/1.jpg')}}" class="image-popup-vertical-fit">
+                <img src="{{ asset('images/project/1.jpg')}}" data-at2x="images/project/1@2x.jpg" alt="Item Image">
+              </a>
+              <div class="item-details">
+                <h3 class="project-title">WordPress App Dev</h3>
+                <span class="category">WordPress</span>
+              </div><!-- /.item-details -->
+            </div><!-- /.item -->
+
+            <div class="item cat-2 cat-3">
+              <a href="{{ asset('images/project/2.jpg')}}" class="image-popup-vertical-fit">
+                <img src="{{ asset('images/project/2.jpg')}}" data-at2x="images/project/2@2x.jpg" alt="Item Image">
+              </a>
+              <div class="item-details">
+                <h3 class="project-title">Joomla Template Design</h3>
+                <span class="category">Joomla</span>
+              </div><!-- /.item-details -->
+            </div><!-- /.item -->
+
+            <div class="item cat-1 cat-3">
+              <a href="{{ asset('images/project/3.jpg')}}" class="image-popup-vertical-fit">
+                <img src="{{ asset('images/project/3.jpg')}}" data-at2x="images/project/3@2x.jpg" alt="Item Image">
+              </a>
+              <div class="item-details">
+                <h3 class="project-title">HTML5 Tmplate Design</h3>
+                <span class="category">HTML5</span>
+              </div><!-- /.item-details -->
+            </div><!-- /.item -->
+
+            <div class="item cat-2 cat-4">
+              <a href="{{ asset('images/project/4.jpg')}}" class="image-popup-vertical-fit">
+                <img src="{{ asset('images/project/4.jpg')}}" data-at2x="images/project/4@2x.jpg" alt="Item Image">
+              </a>
+              <div class="item-details">
+                <h3 class="project-title">CSS3 Animation</h3>
+                <span class="category">CSS3</span>
+              </div><!-- /.item-details -->
+            </div><!-- /.item -->
+
+            <div class="item cat-1 cat-3">
+              <a href="{{ asset('images/project/5.jpg')}}" class="image-popup-vertical-fit">
+                <img src="{{ asset('images/project/5.jpg')}}" data-at2x="images/project/5@2x.jpg" alt="Item Image">
+              </a>
+              <div class="item-details">
+                <h3 class="project-title">WordPress Theme Dev</h3>
+                <span class="category">WordPress</span>
+              </div><!-- /.item-details -->
+            </div><!-- /.item -->
+
+            <div class="item cat-2 cat-4">
+              <a href="{{ asset('images/project/6.jpg')}}" class="image-popup-vertical-fit">
+                <img src="{{ asset('images/project/6.jpg')}}" data-at2x="images/project/6@2x.jpg" alt="Item Image">
+              </a>
+              <div class="item-details">
+                <h3 class="project-title">Web Designing</h3>
+                <span class="category">Design</span>
+              </div><!-- /.item-details -->
+            </div><!-- /.item -->
+
+            <div class="item cat-1 cat-2">
+              <a href="{{ asset('images/project/7.jpg')}}" class="image-popup-vertical-fit">
+                <img src="{{ asset('images/project/7.jpg')}}" data-at2x="images/project/7@2x.jpg" alt="Item Image">
+              </a>
+              <div class="item-details">
+                <h3 class="project-title">App Developing</h3>
+                <span class="category">Developing</span>
+              </div><!-- /.item-details -->
+            </div><!-- /.item -->
+
+            <div class="item cat-3 cat-4">
+              <a href="{{ asset('images/project/8.jpg')}}" class="image-popup-vertical-fit">
+                <img src="{{ asset('images/project/8.jpg')}}"data-at2x="images/project/8@2x.jpg" alt="Item Image">
+              </a>
+              <div class="item-details">
+                <h3 class="project-title">HTML5 Project</h3>
+                <span class="category">HTMl5</span>
+              </div><!-- /.item-details -->
+            </div><!-- /.item --> 
+
+          </div><!-- /#project-items -->
+
+          <div class="btn-container clearfix">
+            <a href="#" class="btn load-more">Load More</a>
+          </div><!-- /.btn-container -->
+        </div><!-- /.latest-projects -->
+      </div><!-- /.section-padding -->
+    </div><!-- /.portfolio-bottom -->
+  </section>
+
+  <!-- Portfolio Section -->
+
+
+</body>
+</html>
